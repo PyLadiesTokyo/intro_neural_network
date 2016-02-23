@@ -1,0 +1,6 @@
+.title {padding:10px; margin-top:44px;}
+.main {padding-left:10px; margin:auto;}
+
+/* お絵描きする部分のCSS */
+.canvas_area {width:280px; height:280px; border:1px solid #ccc;}
+.canvas_area canvas {width:280px; height:280px;}

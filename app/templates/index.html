@@ -1,0 +1,19 @@
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  <script src="{{ url_for('static', filename='drawer.js') }}"></script>
+
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}" type="text/css" />
+
+</head>
+<body>
+  <p id="estimated">estimated = not yet</p>
+  draw number here ↓</br>
+  <div class="canvas_area">
+    <canvas id="canvas"></canvas>
+  </div>
+  <input id="delete_button" type="button" value="delete" />
+<body>
+</html>
