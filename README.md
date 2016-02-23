@@ -15,7 +15,7 @@ $ ipython notebook
 
 `01` から順番に実行すること．
 
-# 文字認識を行うFlaskアプリケーション
+## 文字認識を行うFlaskアプリケーション
 
 ハンズオンが終わったら，作成した分類器を利用して文字認識アプリケーションを動かそう！  
 実行方法は以下のとおり．
@@ -26,4 +26,4 @@ $ python app.py
 ```
 
 こちらのアプリケーションを参考にしています：  
-ginrou/handwritten_classifier
+[ginrou/handwritten_classifier](https://github.com/ginrou/handwritten_classifier)
